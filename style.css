@@ -26,4 +26,13 @@ nav {
       background-color: red;
     }
   }
+
+  .center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    width: 50%;
+  }
+
   
