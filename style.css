@@ -1,38 +1,42 @@
+body{
+  padding: 0;
+margin: 0;
+}
+
 nav {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-  .nagykep {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-  nav a {
-    font-size: 20px;
-    color: aqua;
-  }
-  @media screen and (max-width: 600px) {
-    nav {
-      flex-direction: column;
-      height: auto;
-      background-color: red;
-    }
-  }
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 
-  .center{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 5%;
-    width: 50%;
+}
+.nagykep {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+nav a {
+  font-size: 20px;
+  color: aqua;
+}
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    background-color: red;
   }
+}
 
-  
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  width: 50%;
+}
